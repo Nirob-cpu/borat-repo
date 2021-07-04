@@ -16,7 +16,28 @@ section {
 }
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 .orange {
   color: orange;
+}
+.link-button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(salmon, red);
+  padding: 10px 40px;
+}
+.first-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+}
+#right-padding {
+  padding-right: 5%;
+  text-align: justify;
+}
+.second-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
