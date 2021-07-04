@@ -4,8 +4,11 @@ h1 {
 h3 {
   font-size: 20px;
 }
-section {
+.flexible-container {
   display: flex;
+}
+section {
+  padding-bottom: 150px;
 }
 .half-width {
   width: 50%;
@@ -26,11 +29,11 @@ body {
   color: white;
   background-image: linear-gradient(salmon, red);
   padding: 10px 40px;
+  border-radius: 10px;
 }
 .first-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
-  margin-bottom: 150px;
 }
 #right-padding {
   padding-right: 5%;
@@ -40,4 +43,27 @@ body {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.shadow {
+  box-shadow: 5px 10px 20px gray;
+}
+.flexible-container div {
+  width: 40%;
+  margin: 0 auto;
+  padding: 50px;
+}
+#first-box:first-child {
+  border-image: linear-gradient(red, tomato);
+  border-left: 8px solid;
+  border-image-slice: 1;
+}
+#second-box:last-child {
+  border-left: 8px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.third-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
 }
